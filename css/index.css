@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+
+body {
+    background-color: #f3f5f7;
+    background-image: url(../images/background2.jpg);
+    background-position: center 0; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header{
+    height: 210px;
+    width: 1400px;
+    /* border: 2px solid white; */
+    /* padding: 70px 30px; */
+    padding-top: 70px;
+    padding-left: 130px;
+    float: left;
+}
+
+.header .theme{
+    /* border: 2px solid white; */
+    height: 100px;
+    width: 1200px;
+    /* float: left; */
+}
+
+.header .theme .name{
+    font-size: 78px;
+    color: #f3f5f7;
+    float: left;
+}
+
+.header .theme .logo{
+    width: 70px;
+    height: 70px;
+    float: right;
+    /* border: 2px solid white; */
+    margin-top: 15px;
+}
+
+
+
+
+.middle{
+    height: 210px;
+    /* border: 2px solid white; */
+    padding: 0 130px;
+    margin-bottom: 100px;
+}
+.middle .middle_title{
+    height: 100px;
+    width: 700px;
+    float: left;
+    border-top: 2px solid white;
+}
+.middle .middle_title .disasters{
+    font-size: 56px;
+    color: #f3f5f7;
+    float: left;
+}
+
+.tail{
+    height: 210px;
+    /* border: 2px solid white; */
+    padding: 80px 600px;
+}
+.tail .button{
+    height: 80px;
+    width: 290px;
+    float: left;
+    /* border: 2px solid white; */
+    background-color: green;
+    border-radius:40px;
+}
+
+.tail .button a{
+    display: block;
+    color: white;
+    line-height: 80px;
+    font-size: 26px;
+    text-align: center;
+}
