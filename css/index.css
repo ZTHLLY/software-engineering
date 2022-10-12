@@ -6,6 +6,7 @@
 }
 
 .wrapper{
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -41,7 +42,7 @@ body {
     /* padding: 70px 30px; */
     padding-top: 70px;
     padding-left: 130px;
-    float: left;
+    /* float: left; */
 }
 
 .header .theme{
@@ -73,7 +74,9 @@ body {
     /* border: 2px solid white; */
     padding: 0 130px;
     margin-bottom: 100px;
+    /* margin-top: 800px; */
 }
+
 .middle .middle_title{
     height: 100px;
     width: 700px;

@@ -41,6 +41,7 @@ body {
     border: 1px solid black;
     margin-top: 40px;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .head h1{
@@ -80,6 +81,21 @@ body {
     margin-top: 10px;
 }
 
+.people p{
+    color: blue;
+    float: left;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.people .num{
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+
 .goods{
     height: 100px;
     width: 400px;
@@ -87,6 +103,13 @@ body {
     border: 1px solid black;
     padding-left: 45px;
     margin-top: 10px;
+}
+
+.goods p{
+    color: blue;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .phone{
