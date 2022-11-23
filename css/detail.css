@@ -6,7 +6,7 @@
 }
 
 .wrapper{
-    width: 850px;
+    width: 1535px;
     margin: 0 auto;
 }
 
@@ -35,25 +35,34 @@ body {
     min-height: 100vh;
 }
 
+.left{
+    width: 700px;
+    /* border: 1px solid black; */
+    float: left;
+}
+
 .head{
     height: 90px;
     width: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 40px;
     margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .head h1{
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
     line-height: 90px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .address{
     height: 60px;
     width: 400px;
     margin-left: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left: 45px;
 }
 
@@ -66,36 +75,59 @@ body {
 }
 
 .address a{
+    display: block;
     float: left;
     line-height: 60px;
     font-size: 20px;
 }
 
 .people{
-    height: 60px;
+    height: 50px;
     width: 400px;
     margin-left: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left: 45px;
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.people .title{
+    float: left;
+    color: blue;
+}
+.people p{
+    line-height: 50px;
 }
 
 .goods{
     height: 100px;
     width: 400px;
     margin-left: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left: 45px;
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.goods p{
+    float: left;
+    color: blue;
+}
+
+.goods .tab{
+    margin-left: 80px;
 }
 
 .phone{
     height: 60px;
     width: 400px;
     margin-left: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left: 45px;
     margin-top: 10px;
+}
+
+.phone .title{
+    color: blue;
+    float: left;
 }
 
 .help{
@@ -117,4 +149,21 @@ body {
     font-size: 35px;
     line-height: 70px;
     font-weight: 800;
+}
+
+.right{
+    width: 700px;
+    height: 780px;
+    /* border: 1px solid black; */
+    float: right;
+}
+.right textarea{
+    width: 600px;
+    height: 600px;
+    overflow-y: auto;
+    resize: none;
+    opacity: 0.5;
+    font-size: 30px;
+    color: blue;
+    margin-top: 40px;
 }
