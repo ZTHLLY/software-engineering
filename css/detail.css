@@ -47,7 +47,11 @@ body {
     /* border: 1px solid black; */
     margin-top: 40px;
     margin-left: 50px;
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+    margin-bottom: 10px;
+>>>>>>> 194a5bdef91c9e4f0591fa9944c05354d0f1b752
 }
 
 .head h1{
@@ -98,6 +102,21 @@ body {
     line-height: 50px;
 }
 
+.people p{
+    color: blue;
+    float: left;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.people .num{
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+
 .goods{
     height: 100px;
     width: 400px;
@@ -114,6 +133,13 @@ body {
 
 .goods .tab{
     margin-left: 80px;
+}
+
+.goods p{
+    color: blue;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .phone{
