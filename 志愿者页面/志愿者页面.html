@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="志愿者页面.css">
+	<head>
+		<meta charset="utf-8">
+		<title>志愿者页面</title>
+	</head>
+	<body>
+		
+		
+		<div class="Main">
+		
+		
+		
+		<div class="topic">
+			<div class="logo">
+				<img src="../image/logo.png">
+			</div>
+			<div class="topic_text">
+				<h1>Volunteer</h1>
+			</div>
+		</div>
+		
+		<div class="header">
+			
+			<div class="title">
+				<a href="../主页面/主页面.html"><div class="branch home" ><p>Home</p></div></a>
+			</div>
+					
+
+			<div class="user">
+				<img src="../image/user_logo.png">
+				<div class="pop">
+						<a href="../个人信息页面/个人信息页面.html"><div class="information">个人信息</div></a>
+						<a href="../注册页面/注册页面.html"><div class="information">注册</div></a>
+						<a href="../登录页面/sign_in.html"><div class="information">目录</div></a>				</div>
+			</div>	
+					
+					
+			<div class="research">
+				<form action=""><input type="text">
+				<img src="../image/research.png" onclick=""/>
+				</form>
+			</div>
+
+					
+		</div>
+		
+		
+		<form action="#">
+		<div class="body">
+			<div class="left">
+				<div class="informationtitle">
+					<img src="../image/志愿者书.png">
+				</div>
+				
+				<div class="name">
+					<img src="../image/name.png" width="80px">
+					<input type="text" id="name" name="name" oninput="check_name()" placeholder="please type your name" required>
+					<label id="name_trip"></label>
+				</div>
+				<div class="phone">
+					<img src="../image/phone.png" width="80px">
+					<input type="tel" id="phone_number" name="phone" oninput="check_phone_number()" placeholder="please type your phone number" required>
+					<label id="phone_number_trip"></label>
+				</div>
+				<div class="address">
+					<img src="../image/address.png" width="80px">
+					<input type="text" id="address" name="address" oninput="check_address()" placeholder="please type your address" required>
+					<label id="address_trip"></label>
+				</div>
+				<div class="email">
+					<img src="../image/email.png" width="80px">
+					<input type="email" id="email" name="address" oninput="check_email()" placeholder="please type your email" required>
+					<label id="email_trip"></label>
+				</div>
+				<div class="identity">
+					<img src="../image/identity.png" width="80px">
+					<input type="text" id="indentity" name="indentity" oninput="check_identity()" placeholder="please type your indentity" required>
+					<label id="identity_trip"></label>
+				</div>
+				
+
+				
+			</div>
+			<div class="right">
+				<img src="../image/volunteer.png" >
+				<p style="text-align: center;" class="submit">
+				    <input type="button" class="button" onclick="Submit()" value="submit">
+				    <input type="reset" class="button" onclick="Reset()" value="reset">
+				</p>
+			</div>
+			
+		
+		</div>
+		</form>
+		
+		</div>
+		
+		
+	</body>
+	<script src="志愿者页面.js"></script>
+</html>

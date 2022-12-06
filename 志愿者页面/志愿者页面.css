@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+	width: 100%;
+	min-width: 1200px;
+	background: rgb(231, 231, 231);
+	background-size: 100% 100%;
+	height: 100vh;
+}
+
+
+input:focus{
+	outline: none;
+}
+
+.Main{
+	margin: auto;
+	width: 1000px;
+	height: 1050px;
+	background-color: white;
+	border-left: 50px solid #ffffff;
+	border-right: 50px solid #ffffff;
+}
+
+
+.logo{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.logo > img{
+	margin: auto;
+	margin-left: 20px;
+	width :50px ;
+	height :50px;
+}
+
+.topic{
+	margin-bottom: 10px
+}
+
+.topic_text{
+	margin-left: 120px;
+	color: #38b6ff;
+}
+
+
+
+.header{
+	margin:auto;
+	z-index: 10;
+	width: 1000px;
+	height: 50px;
+	background-color: rgb(56, 182, 255);
+	
+
+}
+
+.user{
+	float: right;
+	width: 50px;
+	height: 50px;
+	/* 设置盒子内元素居中 */
+}
+
+.user >img{
+	margin: auto;
+	width :45px ;
+	height :45px;
+}
+
+.title{
+	float: left;
+	margin-left: 30px;
+}
+
+a{	
+	text-decoration: none; /*让下划线消失*/
+	color: #000;
+}
+
+.title > a :hover{
+	background-color: #0094cb;
+}
+
+
+.title > a > div{
+	text-align: center;
+	height: 49px;
+}
+
+.title > a > div > p{
+	padding: 13px 10px;
+	
+}
+
+.title > a {
+	float: left;
+	display: block;
+	text-align: center;
+	height: 100%;
+	font-size: 18px;
+	padding-left: 24px;
+	color: #ffffff;
+}
+
+.research{
+	float: right;
+	height: 30px;
+	width: 200px;
+	background-color: #fff;
+	margin: 10px 0px;
+	margin-right: 25px;
+	border-radius: 50px;
+}
+
+.research > form > input{
+	width: 120px;
+	border: none;
+	margin: 8px 15px;
+}
+
+.research > form > input:focus{
+	outline: none;
+}
+
+
+
+.research > form > img{
+	float: right;
+	margin: 5px;
+	border-radius: 50%;
+	border: none;
+	height: 22px;
+	width: 22px;
+}
+
+.research > form > img:hover{
+	cursor: pointer;
+}
+
+
+.information{  /*个人空间提示框开始 */
+	position: relative;
+	text-align: center;
+	display: none;
+	width: 100px;
+	right: 50px;
+	z-index: 88;
+	background-color: #38b6ff;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.information:hover{
+	background-color: rgb(0, 148, 203);
+}
+
+.user:hover .information{
+	display: block;
+}
+
+.left{
+	float: left;
+	background-color: white;
+	width: 60%;
+	height: 800px;
+}
+
+.informationtitle > img{
+	width: 100%;
+}
+
+.name, .phone , .address, .email,.identity {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	border: 3px solid black;
+	border-radius: 50px;
+	float: right;
+	background-color: rgb(254, 215, 196);
+	width: 90%;
+	height: 80px;
+}
+.name > img, .phone> img, .address > img , .email > img,.identity > img {
+	float: left;
+
+}
+.name > label, .phone> label, .address > label , .email > label,.identity > label {
+	float: right;
+	font-size: 20px;
+
+}
+.name > input, .phone> input, .address > input , .email > input,.identity > input {
+	margin-left: 20px;
+	float: left;
+	margin-right: 30px;
+	border-style: hidden;
+	background-color: rgb(254, 215, 196);
+	font-size: 20px;
+	width: 65%;
+	height: 40%;
+}
+
+.right {
+	float: right;
+	background-color: white;
+	width: 40%;
+	height: 800px;
+}
+
+.right > img{
+	margin-top: 150px;
+	width: 100%;
+}
+
+.button{
+	margin-top: 20px;
+	border: 3px solid black;
+	border-radius: 50px;
+	background-color: rgb(254, 215, 196);
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+}
