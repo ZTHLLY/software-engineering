@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+	background-color: #e7e7e7;	
+}
+
+
+/*导航栏开始（但没有蓝色条条导航栏）*/
+.nav{
+    position: relative;
+    width: 1000px;
+    height: 110px;
+	border-left: 50px solid #ffffff;
+	border-right: 50px solid #ffffff;
+    background-color: white;
+    margin:0 auto;/*水平居中*/
+    
+}
+/*导航栏结束*/
+/*正文栏开始*/
+.article{
+    position: relative;
+	border-left: 50px solid #ffffff;
+	border-right: 50px solid #ffffff;
+    width: 1000px;
+    height: 1500px;
+    background-color:rgb(255, 250, 245);
+    margin:0 auto;  
+}
+.first{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin:0 auto;/*水平居中*/
+}
+.second{
+    position: relative;
+    width: 900px;
+    height: 800px;
+    background-color: rgb(255, 250, 245);
+    margin:0 auto;/*水平居中*/
+}
+.intro{  
+    border-radius: 30px;
+    position: relative;
+    width: 700px;
+    left: 50px;
+    height: 100px;
+    top: 20px;
+    background-color: #bebebe;
+}
+.line{
+    float: left;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+    width: 350px;
+    height: 300px;
+    left: 20px;
+    background-color: #bebebe;
+}
+.ppt{
+    height: 250px;
+}
+.details{
+    position: relative;
+    left: 50px;
+    background-color: grey;
+}
+/*第二部分开始*/
+.line2{
+    display:inline-block;
+    border-radius: 60px;
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    
+}
+.Vol{
+    position: relative;   
+    background-color: orange;
+    left: 60px;
+    top: 10px;
+    width: 130px;
+    height: 50px;
+}
+
+.Num{
+    position: relative;   
+    background-color:rgb(236, 217, 201);
+    left: 70px;
+    top: 30px;
+    width: 700px;
+    height: 100px; 
+}
+.line3{
+      
+    border-radius: 35px;
+    background-color: greenyellow;
+    width: 150px;
+    height: 50px;   
+}
+.Sup{
+    position: relative;   
+    background-color: yellowgreen;
+    left: 60px;
+    top: 150px;
+    width: 130px;
+    height: 50px;
+}
+.Num2{
+    position: relative;
+    background-color: rgb(236, 217, 201);
+    left: 200px;
+    top: 30px;
+    width: 700px;
+    height: 160px; 
+}
+.line4{
+    position: relative;
+    background-color: rgb(255, 250, 245);
+    top: 50px;
+    left: 00px;
+    width: 900px;
+    height: 100px;
+}
+ul li{
+    float: left;
+    list-style: none;
+    left: 10px;
+}
+.M{
+    background-color: rgb(216, 201, 245);
+    border-radius: 60px;
+    width: 150px;
+    height: 50px;
+}
+.DON{
+    top:15px;
+    position: relative;
+    left: 40px;
+}
+
+
+.VOL{
+    top:15px;
+    position: relative;
+    left: 80px;
+}
+
+.VOL:hover, .DON:hover{
+	background-color:#b5b2ff ;
+}
+
+
+.line5{
+    float: left;
+    position: relative;
+    background-color: yellow;
+    top: 50px;
+    left: 00px;
+    width: 9000px;
+    height: 3000px;
+}
+.Com{
+    top: 150px;
+    border-radius: 60px;
+    position: relative;   
+    background-color: yellowgreen;
+    left: 60px;
+    width: 130px;
+    height: 50px;
+}
+.G{
+    position: relative;
+    background-color: grey;
+    border-radius: 35px;
+    top: 100px;
+    left: 150px;
+    width: 600px;
+    height: 200px;
+}
+.Please{
+    position: relative;
+    background-color: white;
+    left: 10px;
+    top: 20px;
+    width: 550px;
+    height: 150px;
+    border-radius: 35px;
+}
+/*.post{
+    position: relative; 
+    top:20px;
+    left: 480px;
+    width: 100px;
+    height: 20px;
+    border-radius: 35px;
+    background-color: rgb(201, 226, 101);
+}*/
+
+span{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;   
+    font-weight: 500;
+}
+.mmm{
+    float: left;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+.DDD{
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.GGG{
+    position: relative;
+    background-color: rgb(225, 232, 237);
+    border-radius: 35px;
+    top: 20px;
+    width: 100px;
+    height: 30px;
+    
+    left: 120px;
+}
+
+.GGGS{
+    position: relative;
+    background-color: rgb(236, 217, 201);
+    border-radius: 35px;
+    top: 20px;
+    width: 100px;
+    height: 30px;
+    left: 120px;
+}
+.OOO{
+    background-color: orange;
+    position: relative;
+    left: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 35px;
+}
+.PPP{
+    background-color: rgb(216, 201, 245);
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 150px;
+    border-radius: 35px;
+}
+.WWW{
+    background-color: rgb(225, 232, 237);
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 205px;
+    border-radius: 35px;
+}
+.TTT{
+    float: left;
+    margin-left: 55px;
+    margin-top: 7px;  
+} 
+   
+.ttt{
+    float: left;
+    margin-left: 35px;
+    margin-top: 7px;   
+    
+
+}
+p{
+    text-align: center;
+    position: relative;
+    left: 10px;
+}
+.BBB{
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+table{
+    align-items: center;
+}
+.P{
+    position: relative;
+    left: 150px;
+}
+.PP{
+    position: relative;
+    left: 200px;
+}
+.SSSS{
+    position: relative;
+    left: 0px;
+    top: 15px;
+}
+.VVVV{
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+.CCCC{
+    position: relative;
+    left: 0px;
+    top: 15px;
+}
+.COMCOM{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin-top: 10px;
+    border:none;
+    resize:none;
+    outline: medium;
+}
+.POST{
+    position: relative;
+    left: 0px;
+    top: 0px;  
+}
+button{
+
+    position: relative;
+    top:20px;
+    left: 170px;
+    width: 100px;
+    height: 25px;
+    border-radius: 35px;
+    border:none;
+    background-color: rgb(201, 226, 101);
+}
+button:hover, button:hover{
+	background-color:rgb(143, 208, 38) ;
+}
+/*轮播图*/
+.slideshow{
+	margin-bottom: 0px;
+	width: 300px;
+	height: 200px;
+
+}
+.slideshow img:hover{
+	cursor: pointer; 
+}
+.img1{
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.img2{
+	display: none;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.img3{
+	display: none;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.img4{
+	display: none;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.turn_right, .turn_left{
+	position: absolute;
+	top: 80px;
+	width: 25px;
+	height: 70px;
+	background-color: #000000;
+	opacity: 0.3;
+
+}
+.turn_right{
+	margin-left: 275px;
+}
+.turn_right:hover, .turn_left:hover{
+	opacity: 0.6;
+}
+
+.blank{
+	position: absolute;
+	top: 220px;
+	color: black;
+	
+	background-color:#bebebe ;
+    left: 40px;
+	opacity: 0.6;
+    font-size: 30px;
+	width: 270px;
+	height: 20px;
+}
+
+.text1{
+    text-align: center;
+	display: block;
+    font-size: 15px;
+}
+.text2{
+    text-align: center;
+	display: none;
+    font-size: 15px;
+}
+.text3{
+    text-align: center;
+	display: none;
+    font-size: 15px;
+}
+.text4{
+    text-align: center;
+	display: none;
+    font-size: 15px;
+}
+/*轮播图结束*/
+
+
+
+
+
+/*蓝色条条导航栏开始---你的代码原封不动*/
+
+
+/* 标题到此开始 */
+
+.logo{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.logo > img{
+	margin: auto;
+	margin-left: 20px;
+	width :50px ;
+	height :50px;
+}
+
+.topic{
+	margin-bottom: 10px
+}
+
+.topic_text{
+	margin-left: 120px;
+	color: #38b6ff;
+}
+
+
+
+.header{
+	margin:auto;
+	margin-top: 10px;
+	z-index: 10;
+	width: 1000px;
+	height: 50px;
+	background-color: rgb(56, 182, 255);
+
+
+}
+
+.user{
+	float: right;
+	width: 50px;
+	height: 50px;
+	/* 设置盒子内元素居中 */
+}
+
+.user >img{
+	margin: auto;
+	width :45px ;
+	height :45px;
+}
+
+.title{
+	float: left;
+	margin-left: 20px;
+}
+
+a{	
+	text-decoration: none; /*让下划线消失*/
+	color: #000;
+}
+
+.title > a >div :hover{
+	background-color: #0094cb;
+}
+
+
+.title > a > div{
+	margin: auto;
+	text-align: center;
+	height: 49px;
+}
+
+.title > a > div > p{
+
+	padding: 13px 10px;
+	
+}
+
+
+
+.title > a {
+	float: left;
+	display: block;
+	text-align: center;
+	height: 100%;
+	font-size: 18px;
+	margin-left: 24px;
+	color: #ffffff;
+}
+
+.research{
+	float: right;
+	height: 30px;
+	width: 200px;
+	background-color: #fff;
+	margin: 10px 0px;
+	margin-right: 25px;
+	border-radius: 50px;
+}
+
+.research > form > input{
+	width: 120px;
+	border: none;
+	margin: 8px 15px;
+}
+
+.research > form > input:focus{
+	outline: none;
+}
+
+
+
+.research > form > img{
+	float: right;
+	margin: 5px;
+	border-radius: 50%;
+	border: none;
+	height: 22px;
+	width: 22px;
+}
+
+.research > form > img:hover{
+	cursor: pointer;
+}
+
+
+.information{  /*个人空间提示框开始 */
+	position: relative;
+	text-align: center;
+	display: none;
+	width: 100px;
+	right: 50px;
+	z-index: 88;
+	background-color: #38b6ff;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.information:hover{
+	background-color: rgb(0, 148, 203);
+}
+
+.user:hover .information{
+	display: block;
+}
+
+
+
+/*正文栏结束*/

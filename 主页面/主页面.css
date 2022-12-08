@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+	width: 100%;
+	min-width: 1200px;
+	background: rgb(231, 231, 231);
+	background-size: 100% 100%;
+	/* height: 100vh; */
+}
+
+
+input:focus{
+	outline: none;
+}
+
+.content{
+	margin: auto;
+	width: 1000px;
+	height: 1250px;
+	border-left: 50px solid #ffffff;
+	border-right: 50px solid #ffffff;
+	background: #ffffff;
+	
+}
+
+
+
+/* 标题到此开始 */
+
+.logo{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.logo > img{
+	margin: auto;
+	margin-left: 20px;
+	width :50px ;
+	height :50px;
+}
+
+.topic{
+	margin-bottom: 10px
+}
+
+.topic_text{
+	margin-left: 120px;
+	color: #38b6ff;
+}
+
+
+
+.header{
+	margin:auto;
+	z-index: 10;
+	width: 1000px;
+	height: 50px;
+	background-color: rgb(56, 182, 255);
+	
+
+}
+
+.user{
+	float: right;
+	width: 50px;
+	height: 50px;
+	/* 设置盒子内元素居中 */
+}
+
+.user >img{
+	margin: auto;
+	width :45px ;
+	height :45px;
+}
+
+.title{
+	float: left;
+	margin-left: 30px;
+}
+
+a{	
+	text-decoration: none; /*让下划线消失*/
+	color: #000;
+}
+
+.title > a :hover{
+	background-color: #0094cb;
+}
+
+
+.title > a > div{
+	text-align: center;
+	height: 49px;
+}
+
+.title > a > div > p{
+	padding: 13px 10px;
+	font-size: 18px;
+}
+
+.title > a {
+	float: left;
+	display: block;
+	text-align: center;
+	height: 100%;right
+	font-size: 18px;
+	padding-left: 24px;
+	color: #ffffff;
+}
+
+.research{
+	float: right;
+	height: 30px;
+	width: 200px;
+	background-color: #fff;
+	margin: 10px 0px;
+	margin-right: 25px;
+	border-radius: 50px;
+}
+
+.research > form > input{
+	width: 120px;
+	border: none;
+	margin: 8px 15px;
+}
+
+.research > form > input:focus{
+	outline: none;
+}
+
+
+
+.research > form > img{
+	float: right;
+	margin: 5px;
+	border-radius: 50%;
+	border: none;
+	height: 22px;
+	width: 22px;
+}
+
+.research > form > img:hover{
+	cursor: pointer;
+}
+
+
+.information{  /*个人空间提示框开始 */
+	position: relative;
+	text-align: center;
+	display: none;
+	width: 100px;
+	right: 50px;
+	z-index: 88;
+	background-color: #38b6ff;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.information:hover{
+	background-color: rgb(0, 148, 203);
+}
+
+.user:hover .information{
+	display: block;
+}
+
+
+/* 标题到此结束 */
+
+
+
+/* 轮播图开始 */
+.slideshow{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+
+}
+
+
+.slideshow img:hover{
+	cursor: pointer; 
+}
+
+.img1{
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.img2{
+	display: none;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.img3{
+	display: none;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.turn_right, .turn_left{
+	position: absolute;
+	top: 230px;
+	width: 50px;
+	height: 100px;
+	background-color: #000000;
+	opacity: 0.3;
+
+}
+
+.turn_right{
+	margin-left: 950px;
+}
+
+.turn_right:hover, .turn_left:hover{
+	opacity: 0.6;
+}
+
+
+.points{
+	position: absolute;
+	text-align: center;
+	margin-left: 50px;
+	top: 425px;
+	height: 20px;
+}
+
+.points div{	/*设置圆点样式*/
+	float: left;
+	width: 15px ;
+	height: 15px ;
+	border-radius: 50%;/*设置圆边，把方形变成圆形*/
+	background: rgba(0, 0, 0, 0.6);/*背景颜色设置不透明*/
+	margin: 2.5px 5px;/*设置每个a距离右边5px,圆点之间距离*/
+	
+}
+.points div:hover{	/*设置鼠标滑动时圆点样式*/
+	background: #fff;/*圆点背景颜色*/
+}
+
+
+
+
+.blank{
+	position: absolute;
+	top: 450px;
+	color: #ffffff;
+	font-size: 40px;
+	background-color: #000;
+	opacity: 0.6;
+	width: 1000px;
+	height: 50.5px;
+}
+
+.text1{
+	display: block;
+}
+.text2{
+	display: none;
+}
+.text3{
+	display: none;
+}
+
+
+/* 轮播图结束 */
+
+.share{
+	position: absolute;
+	padding-bottom: 100px;
+	border: 0px 20px solid #ffffff;
+	background: #fffaf5;
+	width: 1000px;
+	height: auto;
+}
+
+
+/* 公告栏开始 */
+.left_titel, .right_titel{
+	margin: auto;
+	margin-bottom: 20px;
+	color: #38b6ff;
+	width: 75%;
+}
+
+
+.left{
+	position: relative;
+	float: left;
+	width: 42%;
+	border: 20px solid #38b6ff;
+	border-radius: 15%;
+}
+
+.goodguys{
+	overflow-y: auto;
+	margin-bottom: 50px;
+	margin-top: 5px;
+	width: 100%;
+	height: 365px;
+}
+
+.goodguys::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 10px;
+}
+
+.goodguys::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  background   : #ffbd59;
+}
+
+  
+.goodguys::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 10px;
+  height: 200px;
+  background   : #ffffff;
+}
+
+
+.people{
+	margin: auto;
+	width: 80%;
+	min-height: 60px;
+	background: #fff;
+	border-bottom: 1px solid black;
+}
+.people:hover{
+	background-color:  rgba(193, 193, 193, 0.5) ;
+	cursor: pointer;
+}
+
+
+.people img{
+	float: left;
+	width: 35px;
+	height: 35px;
+}
+
+.recommend{
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+.right{
+	position: relative;
+	float: right;
+	width: 42%;
+	border: 20px solid #38b6ff;
+	border-radius: 15%;
+}
+
+.matter{
+	overflow-y: auto;
+	margin-bottom: 50px;
+	margin-top: 5px;
+	width: 100%;
+	height: 365px;
+}
+
+
+
+.matter::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 10px;
+}
+
+.matter::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  background   : #ffbd59;
+}
+
+  
+.matter::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 10px;
+  height: 200px;
+  background   : #ffffff;
+}
+
+
+
+
+.disaster{;
+	margin: auto;
+	width: 90%;
+	min-height: 60px;
+	background: #fff;
+	border-bottom: 1px solid black;
+}
+.disaster:hover{
+	background-color:  rgba(193, 193, 193, 0.5) ;
+	cursor: pointer;
+}
+
+
+.disaster img{
+	float: left;
+	width: 35px;
+	height: 35px;
+}
+
+/* 公告栏结束 */
+
+

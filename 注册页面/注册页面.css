@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	width: 100%;
+	min-width: 1200px;
+	background: rgb(231, 231, 231);
+	background-size: 100% 100%;
+	
+}
+
+input:focus{
+	outline: none;
+}
+
+.main_screen{
+	margin: auto;
+	width: 1000px;
+	height: 1250px;
+	border-left: 50px solid #ffffff;
+	border-right: 50px solid #ffffff;
+	background: #ffffff;
+	
+}
+
+
+/* 标题到此开始 */
+
+.logo{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.logo > img{
+	margin: auto;
+	margin-left: 20px;
+	width :50px ;
+	height :50px;
+}
+
+.topic{
+	margin-bottom: 10px
+}
+
+.topic_text{
+	margin-left: 120px;
+	color: #38b6ff;
+}
+
+
+
+.header{
+	margin:auto;
+	z-index: 10;
+	width: 1000px;
+	height: 50px;
+	background-color: rgb(56, 182, 255);
+	
+
+}
+
+.user{
+	float: right;
+	width: 50px;
+	height: 50px;
+	/* 设置盒子内元素居中 */
+}
+
+.user >img{
+	margin: auto;
+	width :45px ;
+	height :45px;
+}
+
+.title{
+	float: left;
+	margin-left: 30px;
+}
+
+a{	
+	text-decoration: none; /*让下划线消失*/
+	color: #000;
+}
+
+.title > a :hover{
+	background-color: #0094cb;
+}
+
+
+.title > a > div{
+	text-align: center;
+	height: 49px;
+}
+
+.title > a > div > p{
+	padding: 13px 10px;
+	font-size: 18px;
+}
+
+.title > a {
+	float: left;
+	display: block;
+	text-align: center;
+	height: 100%;right
+	font-size: 18px;
+	padding-left: 24px;
+	color: #ffffff;
+}
+
+.research{
+	float: right;
+	height: 30px;
+	width: 200px;
+	background-color: #fff;
+	margin: 10px 0px;
+	margin-right: 25px;
+	border-radius: 50px;
+}
+
+.research > form > input{
+	width: 120px;
+	border: none;
+	margin: 8px 15px;
+}
+
+.research > form > input:focus{
+	outline: none;
+}
+
+
+
+.research > form > img{
+	float: right;
+	margin: 5px;
+	border-radius: 50%;
+	border: none;
+	height: 22px;
+	width: 22px;
+}
+
+.research > form > img:hover{
+	cursor: pointer;
+}
+
+
+.information{  /*个人空间提示框开始 */
+	position: relative;
+	text-align: center;
+	display: none;
+	width: 100px;
+	right: 50px;
+	z-index: 88;
+	background-color: #38b6ff;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.information:hover{
+	background-color: rgb(0, 148, 203);
+}
+
+.user:hover .information{
+	display: block;
+}
+
+
+/* 标题到此结束 */
+
+/* 模糊背景图开始 */
+.dim{
+	background: url("image/123456.png");
+	background-size: cover;
+	width: 1000px;
+	height: 70px;
+}
+
+/* 模糊背景图结束 */
+
+/* 用户头像开始 */
+.user_image{
+	position: absolute;
+	top: 120px;
+	margin-left: 460px;
+	background: url("image/user.png");
+	background-size: cover;
+	height: 80px;
+	width: 80px;
+}
+/* 用户头像结束 */
+
+/* 内容栏开始 */
+.content{
+	background-color: #e7e7e7;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	width: 800px;
+	height: 800px;
+}
+
+.content > form > p{
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.content > form > p > input{
+	font-size: 25px;
+	height: 80px;
+	width: 600px;
+	border-radius: 30px;
+	border-color: #38b6ff;
+}
+
+.alert{
+	font-size: 15px;
+	color: #ff0000;
+	position: absolute;
+	margin-top: 10px;
+}
+
+
+.button{
+	margin: 100px 0px 50px 50px;
+	border: 3px solid #38b6ff;
+	border-radius: 50px;
+	background-color: rgb(255, 255, 255);
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+}
+
+
+
+
+/* 内容栏结束 */
+
+
+
+	
+}
